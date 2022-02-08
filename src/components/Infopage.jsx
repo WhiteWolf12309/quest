@@ -43,7 +43,7 @@ const Infopage = ({appStage, setAppStage}) => {
             </div>
 
             <div className="item">
-              <div className="item-title">Игровые моменты</div>
+              <div className="item-title">Монеты</div>
               <div className="item-body">За каждый правильный ответ вы будете получать по 20 монет, а за каждый не правильный ответ у вас будет отниматься по 10 монет</div>
             </div>
 
