@@ -42,6 +42,11 @@ const Infopage = ({appStage, setAppStage}) => {
               <div className="item-body">Если ты не можешь решить задачу, просто открой справку, там наверняка есть решение твоей проблемы.</div>
             </div>
 
+            <div className="item">
+              <div className="item-title">Игровые моменты</div>
+              <div className="item-body">За каждый правильный ответ вы будете получать по 20 монет, а за каждый не правильный ответ у вас будет отниматься по 10 монет</div>
+            </div>
+
             <div className="ready">
               <div className="ready-title">Ты уже готов?</div>
               <div onClick={() => setBtnState(1)} className="ready-btn">{btnState ?  timer : "Да, я готов!"}</div>
