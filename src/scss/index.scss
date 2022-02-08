@@ -509,9 +509,9 @@ body {
                 &-achievements {
                     margin: 0 auto;
                     display: grid;
-                    grid-template-columns: repeat(2, 360px);
+                    grid-template-columns: repeat(2, 370px);
                     grid-template-rows: repeat(2, 110px);
-                    grid-column-gap: 10px;
+                    grid-column-gap: 50px;
                     grid-row-gap: 26px;
                     margin-top: 50px;
 
