@@ -637,6 +637,8 @@ body {
                         }
 
                         &__image {
+                            width: 50px;
+
                             @media screen and (max-width: 1025px) {
                                 width: 50px;
                             }
