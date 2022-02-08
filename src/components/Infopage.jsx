@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-import presentMap from '../img/map_present.png'
+import presentMap from '../img/maps/map_present.png'
 
 
 const Infopage = ({appStage, setAppStage}) => {

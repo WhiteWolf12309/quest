@@ -1,24 +1,20 @@
 
 import React from 'react';
 
-import checkmark from '../img/checkmark.svg'
-import skull from '../img/skull.svg'
-import swords from '../img/swords.svg'
-import money from '../img/money.svg'
+import checkmark from '../img/icons/checkmark.svg'
+import skull from '../img/icons/skull.svg'
+import swords from '../img/icons/swords.svg'
+import money from '../img/icons/money.svg'
 
-import github from '../img/github.svg'
+import github from '../img/icons/github.svg'
 
 
 const Resultspage = ({ setCountAnsweredQ, setAppStage, resultsData }) => {
-
 
     const playAgain = () => {
         setCountAnsweredQ(0) // clean answer's counter
         setAppStage(0)       // go back to first page (instruction)
     }
-
-    
-
 
     return (
         <div className='results'>
@@ -55,7 +51,7 @@ const Resultspage = ({ setCountAnsweredQ, setAppStage, resultsData }) => {
                         </div>
                     </div>
                     <div className="results__inner__body-buttons">
-                        <a href='' className="guthub">
+                        <a href='https://github.com/WhiteWolf12309/quest' className="guthub">
                             <div className="guthub__title">GitHub</div>
                             <img className='guthub__image' src={github} alt="" />
                         </a>

@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-import exitImg from '../img/exit.svg'
+import exitImg from '../img/icons/exit.svg'
 
-import map1 from '../img/map1.png'
-import map2 from '../img/map2.png'
-import map3 from '../img/map3.png'
-import map4 from '../img/map4.png'
-import map5 from '../img/map5.png'
+import map1 from '../img/maps/map1.png'
+import map2 from '../img/maps/map2.png'
+import map3 from '../img/maps/map3.png'
+import map4 from '../img/maps/map4.png'
+import map5 from '../img/maps/map5.png'
 
 const Map = ({ gameLevel, setShowMap }) => {
 

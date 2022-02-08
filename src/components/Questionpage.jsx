@@ -1,8 +1,8 @@
 
 import React, {useState} from 'react';
 
-import map from '../img/Map.svg'
-import help from '../img/help.svg'
+import map from '../img/icons/Map.svg'
+import help from '../img/icons/help.svg'
 
 import Map from './Map';
 import Help from './Help';

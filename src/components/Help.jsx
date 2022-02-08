@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import exitImg from '../img/exit.svg'
+import exitImg from '../img/icons/exit.svg'
 
 const Help = ({help_content, setShowHelp }) => {
     return (
