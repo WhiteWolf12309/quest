@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react';
-
+import { motion } from 'framer-motion'
 import map from '../img/icons/Map.svg'
 import help from '../img/icons/help.svg'
 
@@ -55,18 +55,18 @@ const Questionpage = ({ appStage, setAppStage, data, gameLevel, setGameLevel, po
                     <div className='question__inner__title'>{data.title}</div>
 
                     <div className="answer__body">
-                        <div className='answer green' onClick={checkAnswer}>
+                        <motion.div whileTap={{ scale: 0.8 }} className='answer green' onClick={checkAnswer}>
                             <div className='answer-text'>{data.ans1}</div>
-                        </div>
-                        <div  className='answer red' onClick={checkAnswer}>
+                        </motion.div>
+                        <motion.div whileTap={{ scale: 0.8 }} className='answer red' onClick={checkAnswer}>
                             <div className='answer-text'>{data.ans2}</div>
-                        </div>
-                        <div  className='answer orange' onClick={checkAnswer}>
+                        </motion.div>
+                        <motion.div whileTap={{ scale: 0.8 }} className='answer orange' onClick={checkAnswer}>
                             <div className='answer-text'>{data.ans3}</div>
-                        </div>
-                        <div  className='answer primary' onClick={checkAnswer}>
+                        </motion.div>
+                        <motion.div whileTap={{ scale: 0.8 }} className='answer primary' onClick={checkAnswer}>
                             <div className='answer-text'>{data.ans4}</div>
-                        </div>
+                        </motion.div>
                     </div>
 
                 </div>

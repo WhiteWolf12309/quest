@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import { motion } from 'framer-motion'
 import checkmark from '../img/icons/checkmark.svg'
 import skull from '../img/icons/skull.svg'
 import swords from '../img/icons/swords.svg'
@@ -51,11 +51,11 @@ const Resultspage = ({ setCountAnsweredQ, setAppStage, resultsData }) => {
                         </div>
                     </div>
                     <div className="results__inner__body-buttons">
-                        <a href='https://github.com/WhiteWolf12309/quest' className="guthub">
+                        <motion.a whileHover={{ scale: 1.05 }} href='https://github.com/WhiteWolf12309/quest' className="guthub">
                             <div className="guthub__title">GitHub</div>
                             <img className='guthub__image' src={github} alt="" />
-                        </a>
-                        <div onClick={playAgain} className="play-again">Отлично, хочу пройти квест снова!</div>
+                        </motion.a>
+                        <motion.div whileHover={{ scale: 1.05 }} onClick={playAgain} className="play-again">Отлично, хочу пройти квест снова!</motion.div>
                     </div>
                 </div>
             </div>

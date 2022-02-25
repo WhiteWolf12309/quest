@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-
+import { motion } from 'framer-motion'
 import presentMap from '../img/maps/map_present.png'
 
 
@@ -49,7 +49,12 @@ const Infopage = ({appStage, setAppStage}) => {
 
             <div className="ready">
               <div className="ready-title">Ты уже готов?</div>
-              <div onClick={() => setBtnState(1)} className="ready-btn">{btnState ?  timer : "Да, я готов!"}</div>
+              <motion.div 
+                whileHover={{ scale: 1.1 }} 
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setBtnState(1)} 
+                className="ready-btn"
+                >{btnState ?  timer : "Да, я готов!"}</motion.div>
             </div>
           </div>
         </div>
